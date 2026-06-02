@@ -1,16 +1,149 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FailTrack</title>
-    <link rel="stylesheet" href="./css/index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FailTrack</title>
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <main>
-        <header></header>
-        <section></section>
-        <footer></footer>
-    </main>
+
+<header class="navbar">
+  <div class="logo">
+    <svg width="36" height="36" viewBox="0 0 100 100" fill="none">
+      <circle cx="50" cy="50" r="42" stroke="#2563EB" stroke-width="8"/>
+      <path d="M50 25V50L65 60" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="75" cy="25" r="12" fill="#EF4444"/>
+      <text x="75" y="30" text-anchor="middle" fill="white" font-size="14">!</text>
+    </svg>
+    <span>FailTrack</span>
+  </div>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#funcionalidades">Funcionalidades</a>
+    <a href="#mockups">Mockups</a>
+    <a href="#planos">Planos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <a class="btn" href="#">Entrar na Lista de Espera</a>
+</header>
+
+<section class="hero" id="inicio">
+  <div>
+    <span class="badge">IA Preditiva</span>
+    <h1>Descubra seus atrasos antes que eles aconteçam.</h1>
+    <p>O primeiro aplicativo que prevê quando você corre risco de perder um prazo.</p>
+    <div class="hero-buttons">
+      <a class="btn" href="#">Testar Agora</a>
+      <a class="btn-secondary" href="#">Ver Demonstração</a>
+    </div>
+  </div>
+
+  <div class="phone">
+    <h3>Risco de atraso</h3>
+    <div class="risk">82%</div>
+    <span class="danger">Alto risco</span>
+  </div>
+</section>
+
+<section id="funcionalidades">
+<h2>Funcionalidades</h2>
+<div class="cards">
+  <div class="card">
+    <h3>Previsão Inteligente</h3>
+    <p>A IA identifica tarefas com alto risco de atraso.</p>
+  </div>
+  <div class="card">
+    <h3>Alertas Inteligentes</h3>
+    <p>Receba avisos antes que o problema aconteça.</p>
+  </div>
+  <div class="card">
+    <h3>Relatórios de Produtividade</h3>
+    <p>Entenda seus padrões e melhore seus resultados.</p>
+  </div>
+</div>
+</section>
+
+<section id="mockups">
+<h2>Veja o FailTrack em ação</h2>
+<div class="cards">
+
+<div class="card app">
+<h3>Dashboard</h3>
+<p>Olá João</p>
+<div class="task red">Trabalho História - 82%</div>
+<div class="task yellow">Projeto Matemática - 65%</div>
+<div class="task green">Shark Tank - 25%</div>
+<button class="bnt-secondary">Nova Tarefa</button>
+</div>
+
+<div class="card app">
+<h3>Nova Tarefa</h3>
+<input placeholder="Título">
+<input placeholder="Descrição">
+<input placeholder="Prazo">
+<input placeholder="Tempo estimado">
+<button class="bnt-secondary">Salvar</button>
+</div>
+
+<div class="card app">
+<h3>Análise IA</h3>
+<p class="risk-small">82%</p>
+<ul>
+<li>Pouco progresso</li>
+<li>Prazo próximo</li>
+</ul>
+<p>Dedique 1 hora por dia pelos próximos 4 dias.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Como Funciona</h2>
+<div class="steps">
+<div>Criar tarefa</div>
+<div>Definir prazo</div>
+<div>Registrar progresso</div>
+<div>Receber previsão</div>
+</div>
+</section>
+
+<section id="planos">
+<h2>Planos</h2>
+<div class="cards">
+<div class="card">
+<h3>Gratuito</h3>
+<p>Até 10 tarefas</p>
+<p>Previsão básica</p>
+<p>Alertas simples</p>
+</div>
+
+<div class="card premium">
+<span class="badge">Mais Popular</span>
+<h3>Premium</h3>
+<h2>R$19,90/mês</h2>
+<p>Tarefas ilimitadas</p>
+<p>IA avançada</p>
+<p>Relatórios completos</p>
+<p>Alertas inteligentes</p>
+</div>
+</div>
+</section>
+
+<section class="cta">
+<h2>Pare de descobrir seus atrasos tarde demais.</h2>
+<p>Receba previsões antes dos prazos se tornarem um problema.</p>
+<a class="btn" href="#">Entrar na Lista de Espera</a>
+</section>
+
+<footer id="contato">
+<p><strong>FailTrack</strong> — Prevendo falhas antes que elas aconteçam.</p>
+<p>Instagram • LinkedIn • GitHub</p>
+<p>© 2026 FailTrack. Todos os direitos reservados.</p>
+</footer>
+
 </body>
 </html>
